@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unify - Sign up</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/Unify_SignUp.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="page" id="page">
+    
+   
+<section class="form" ds="height: .background-image_H / 1.050; width: .background-image_W - (.background-image_H - (.background-image_H / 1.050));">
+    <if-block device="pc || tab || lap || tv">
+
+    
+<section class="form-content form-content-active" ds="width: .form_W / 2; height: .form_H;">
+
+
+
+
+    <section class="form-content-heading"  ds="width: .form-content_W / 1.050;
+     height: .form-content_H / 10;
+     marginT: (.form-content_W - (.form-content_W / 1.050)) / 2 !i;">
+        <h1 ds="fs: (.form-content-heading_H + .form-content-heading_W) / 20;">Create an account
+   
+
+        </h1>
+    </section>
+  
+    <section class="form-content-heading--input" id="name" ds="height: (.form-content_H - .form-content-heading_H) / 9; 
+    width: .form-content_W / 1.1;
+    marginT: .form-content-heading--input_H / 5 !i;">
+       <main ds="height: $t$.form-content-heading--input_H / 2.5; width: $t$.form-content-heading--input_W;
+       border-width: ($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 150; ">
+           <span ds="height: $t$.form-content-heading--input@main_H - (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 80); width: $t$.form-content-heading--input_W / 5;
+           fs: ($t$.form-content-heading--input@main_H + $t$.form-content-heading--input@main_W) / 40;">
+        <i style="margin-right: 1ch !important;" class="fa-solid fa-id-card-clip"></i>
+        <h6>Name</h6>
+        </span> 
+           <input host="name-port" value="" type="text" ds="height:  $t$.form-content-heading--input@main_H - (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 80);
+            width: $t$.form-content-heading--input_W - (($t$.form-content-heading--input_W / 5) + (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 70))">
+        </main>
+        <h1 id="errorMessage" ds="height: ($t$.form-content-heading--input_H / 2) - (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 75);
+         width: $t$.form-content-heading--input_W;
+         fs: ($t$.form-content-heading--input@h1_H + $t$.form-content-heading--input@h1_W) / 55;">
+         <span id="errorMessageText"></span></h1>
+        </section>
+    
+    <section class="form-content-heading--input" id="email" ds="height: (.form-content_H - .form-content-heading_H) / 9; 
+    width: .form-content_W / 1.1;
+    marginT: .form-content-heading--input_H / 5 !i;">
+       <main ds="height: $t$.form-content-heading--input_H / 2.5; width: $t$.form-content-heading--input_W;
+       border-width: ($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 150; ">
+           <span ds="height: $t$.form-content-heading--input@main_H - (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 80); width: $t$.form-content-heading--input_W / 5;
+           fs: ($t$.form-content-heading--input@main_H + $t$.form-content-heading--input@main_W) / 40;">
+        <i class="fa-solid fa-envelope" style="margin-right: 1ch !important;"></i>
+    <h6>Email</h6></span> 
+           <input host="email-port" value=""  type="text" ds="height:  $t$.form-content-heading--input@main_H - (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 80);
+            width: $t$.form-content-heading--input_W - (($t$.form-content-heading--input_W / 5) + (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 70))">
+        </main>
+        <h1 id="errorMessage" ds="height: ($t$.form-content-heading--input_H / 2) - (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 75);
+         width: $t$.form-content-heading--input_W;
+         fs: ($t$.form-content-heading--input@h1_H + $t$.form-content-heading--input@h1_W) / 55;">
+         <span id="errorMessageText" > </span></h1>
+        </section>
+        <section class="form-content-heading--input" id="username" ds="height: (.form-content_H - .form-content-heading_H) / 9; 
+    width: .form-content_W / 1.1;
+    marginT: .form-content-heading--input_H / 5 !i;">
+       <main ds="height: $t$.form-content-heading--input_H / 2.5; width: $t$.form-content-heading--input_W;
+       border-width: ($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 150; ">
+           <span ds="height: $t$.form-content-heading--input@main_H - (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 80); width: $t$.form-content-heading--input_W / 5;
+           fs: ($t$.form-content-heading--input@main_H + $t$.form-content-heading--input@main_W) / 40;">
+         <i style="margin-right: 1ch !important;" class="fa-solid fa-signature"></i>
+        <h6>Username</h6></span> 
+           <input host="username-port" value="" type="text" ds="height:  $t$.form-content-heading--input@main_H - (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 80);
+            width: $t$.form-content-heading--input_W - (($t$.form-content-heading--input_W / 5) + (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 70))">
+        </main>
+        <h1 id="errorMessage" ds="height: ($t$.form-content-heading--input_H / 2) - (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 75);
+         width: $t$.form-content-heading--input_W;
+         fs: ($t$.form-content-heading--input@h1_H + $t$.form-content-heading--input@h1_W) / 55;">
+         <span id="errorMessageText">  </span></h1>
+        </section>
+    <section class="form-content-heading--input" id="password" ds="height: (.form-content_H - .form-content-heading_H) / 9; 
+    width: .form-content_W / 1.1;
+    marginT: .form-content-heading--input_H / 5 !i;">
+       <main ds="height: $t$.form-content-heading--input_H / 2.5; width: $t$.form-content-heading--input_W;
+       border-width: ($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 150; ">
+           <span ds="height: $t$.form-content-heading--input@main_H - (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 80); width: $t$.form-content-heading--input_W / 5;
+           fs: ($t$.form-content-heading--input@main_H + $t$.form-content-heading--input@main_W) / 40;">
+        <i class="fa-solid fa-key" style="margin-right: 1ch !important;"></i>
+    <h6>Password</h6></span> 
+           <input host="password-port"  type="text" 
+           ds="height:  $t$.form-content-heading--input@main_H - (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 80);
+            width: $t$.form-content-heading--input_W - (($t$.form-content-heading--input_W / 5) + (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 70))">
+        </main>
+        <h1 id="errorMessage" ds="height: ($t$.form-content-heading--input_H / 2) - (($t$.form-content-heading--input_H + $t$.form-content-heading--input_W) / 75);
+         width: $t$.form-content-heading--input_W;
+         fs: ($t$.form-content-heading--input@h1_H + $t$.form-content-heading--input@h1_W) / 55;">
+         <span id="errorMessageText"> </span></h1>
+        </section>
+<section class="form-content-date-main-container" id="date" ds="
+height: (.form-content_H - .form-content-heading_H) / 4.6;
+marginT: .form-content-date-main-container_H / 20 !i;
+marginB: .form-content-date-main-container_H / 20 !i;
+">
+
+
+    <section class="form-content-date" ds="height: (.form-content_H - .form-content-heading_H) / 7;
+    width: .form-content_W / 1.1;
+         border-width: (.form-content-heading--input_H + .form-content-heading--input_W) / 150">
+            <section class="form-content-date-container" ds="height: .form-content-date_H - ((.form-content-heading--input_H + .form-content-heading--input_W) / 75);
+            width: .form-content-date_W - ((.form-content-heading--input_H + .form-content-heading--input_W) / 75);">
+                <section class="form-content-date-container-key" ds="height: .form-content-date-container_H;
+                width: ((.form-content-date-container_W / 4) - ((.form-content-heading--input_H + .form-content-heading--input_W) / 75));
+                marginR: ((.form-content-heading--input_H + .form-content-heading--input_W) / 75) !i;">
+                    <i ds="fs: (.form-content-date-container-key_H + .form-content-date-container-key_W) / 10;" style="margin-bottom: 0.3ch !important;" class="fa-solid fa-calendar"></i>
+                    <span ds="fs: (.form-content-date-container-key_H + .form-content-date-container-key_W) / 15;">Date of birth</span>
+                </section>
+                <section class="form-content-date-container-value" id="day-data" data-day="" ds="
+                width: .form-content-date-container_W / 4.1;
+                height: .form-content-date-container_H;">
+                    <h1 ds="height: $t$.form-content-date-container-value_H / 3;
+                    width: $t$.form-content-date-container-value_W;
+                    fs: ( $t$.form-content-date-container-value_H +  $t$.form-content-date-container-value_W) / 15;">Day</h1>
+                  
+                    <span ds="
+                    width: $t$.form-content-date-container-value_W;
+                    height: $t$.form-content-date-container-value_H / 3;">
+                        <strong ds="fs: ($t$.form-content-date-container-value@span_W + $t$.form-content-date-container-value@span_H) / 13;"></strong>
+                    </span>
+                    
+                      <input oninput="
+simulateInputs(this , [[this.closest('section').querySelector('span strong') , 'data-day' , this.closest('.form-content-date-container-value')] , ['#day-data--phone #phone-date-value' , 'data-day'] , 
+['#day-data--phone  #phone-date-value' , 'value' , ' #day-data--phone input']])" type="text" ds="
+                    width: $t$.form-content-date-container-value_W;
+                    height: $t$.form-content-date-container-value_H; bottom: $t$.form-content-date-container-value@h6_H;">
+                      <!-- <input oninput="simulateInput(this , this.closest('section').querySelector('span strong') , [[this.closest('.form-content-date-container-value') , 'data-day']])" type="text" ds="
+                    width: $t$.form-content-date-container-value_W;
+                    height: $t$.form-content-date-container-value_H; bottom: $t$.form-content-date-container-value@h6_H;"> -->
+                </section>
+              
+                <section class="form-content-date-container-value" id="month-data" data-month="" ds="
+                width: .form-content-date-container_W / 4.1;
+                height: .form-content-date-container_H;">
+                    <h1 ds="height: $t$.form-content-date-container-value_H / 3;
+                    width: $t$.form-content-date-container-value_W;
+                    fs: ( $t$.form-content-date-container-value_H +  $t$.form-content-date-container-value_W) / 15;">Month</h1>
+                  
+                    <span ds="
+                    width: $t$.form-content-date-container-value_W;
+                    height: $t$.form-content-date-container-value_H / 3;">
+                        <strong ds="fs: ($t$.form-content-date-container-value@span_W + $t$.form-content-date-container-value@span_H) / 13;"></strong>
+                    </span>
+                                       
+                      <input oninput="
+simulateInputs(this , [[this.closest('section').querySelector('span strong') , 'data-month' , this.closest('.form-content-date-container-value')] , ['#month-data--phone #phone-date-value' , 'data-month'] , 
+['.form-content #month-data span strong' , 'value' , '.form-content #month-data--phone input']])" type="text" ds="
+                    width: $t$.form-content-date-container-value_W;
+                    height: $t$.form-content-date-container-value_H; bottom: $t$.form-content-date-container-value@h6_H;">
+                </section>
+              
+                <section class="form-content-date-container-value" id="year-data" data-year="" ds="
+                width: .form-content-date-container_W / 4.1;
+                height: .form-content-date-container_H;">
+                    <h1 ds="height: $t$.form-content-date-container-value_H / 3;
+                    width: $t$.form-content-date-container-value_W;
+                    fs: ( $t$.form-content-date-container-value_H +  $t$.form-content-date-container-value_W) / 15;">Year</h1>
+                  
+                    <span ds="
+                    width: $t$.form-content-date-container-value_W;
+                    height: $t$.form-content-date-container-value_H / 3;">
+                        <strong ds="fs: ($t$.form-content-date-container-value@span_W + $t$.form-content-date-container-value@span_H) / 13;"></strong>
+                    </span>
+                                       
+                      <input oninput="
+simulateInputs(this , [[this.closest('section').querySelector('span strong') , 'data-year' , this.closest('.form-content-date-container-value')] , ['#year-data--phone #phone-date-value' , 'data-year']])" type="text" ds="
+                    width: $t$.form-content-date-container-value_W;
+                    height: $t$.form-content-date-container-value_H; bottom: $t$.form-content-date-container-value@h6_H;">
+                </section>
+              
+               
+            </section>
+        </section>
+        <section class="form-content-date-main-container-error-message" id="errorMessage" ds="
+        height: (.form-content-date-main-container_H - .form-content-date_H) / 1.4;">
+<span id="errorMessageText" ds="fs: (.form-content-date-main-container-error-message_H + .form-content-date-main-container-error-message_W) / 60;"> </span>
+        </section>
+  </section>
+ 
+  <section class="form-content-btn-row" ds="
+  height: (.form-content_H - (.form-content-heading_H + (.form-content-heading--input_H * 4) + .form-content-date_H)) / 5;
+  width: .form-content_W / 1.1;">
+  
+    <section class="form-content-create-btn" onclick="createAccountLoading()" ds="
+    border-width: (.form-content-btn-row_H + .form-content-btn-row_W) / 150;
+    width: .form-content-btn-row_W / 3;
+    height: .form-content-btn-row_H / 1.2;">
+        <main ds="height: (.form-content-create-btn_H) - ((.form-content-btn-row_H + .form-content-btn-row_W) / 75);">
+            <i ds="fs: (.form-content-create-btn_H + .form-content-create-btn_W) / 15;" class="fa-solid fa-door-open"></i>
+             <h1 style="margin-left: 1ch !important;" ds="fs: (.form-content-create-btn_H + .form-content-create-btn_W) / 15;">Create account</h1></main>
+        
+    </section>
+    <section class="already-have-account" ds="width: .form-content-btn-row_W - (.form-content-create-btn_W); 
+  height: .form-content-btn-row_H / 1.1;">
+    <a href="" ds="fs: (.already-have-account_H + .already-have-account_W) / 30;">Already have an account? 
+        <span>login now </span></a>
+  </section>
+  </section>
+
+
+
+  <section class="signup-with-btns" ds="width: .already-have-account_W / 1.1;
+  height: (.form-content_H - (.form-content-heading_H + (.form-content-heading--input_H * 4) + .form-content-date_H + .form-content-btn-row_H)) / 3;
+  marginL: (.form-content_W - (.form-content_W / 1.1)) !i;">
+
+<button onclick="continueWithGoogle()" class="signup-with-btns-btn" ds="width: .signup-with-btns_W / 2.1;
+height: .signup-with-btns_H / 1.5;">
+    <main ds="width: $t$.signup-with-btns-btn_W / 5;
+    height: $t$.signup-with-btns-btn_H;">
+        <img ds="width: ($t$.signup-with-btns-btn_W + $t$.signup-with-btns-btn_H) / 6;
+        max-height: $t$.signup-with-btns-btn@main_H;" src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt="" srcset="">
+    </main>
+    <aside 
+    ds="width: $t$.signup-with-btns-btn_W - $t$.signup-with-btns-btn@main_W;
+    height: $t$.signup-with-btns-btn@main_H;">
+        <img ds="width: $t$.signup-with-btns-btn@aside_W / 1.1;
+        max-height: $t$.signup-with-btns-btn@aside_H;" src="https://i.postimg.cc/4dHycp2G/image.png" alt="" srcset="">
+    </aside>
+</button>
+
+<button onclick="continueWithFacebook()" class="signup-with-btns-btn" ds="width: .signup-with-btns_W / 2.1;
+height: .signup-with-btns_H / 1.5;">
+    <main ds="width: $t$.signup-with-btns-btn_W / 5;
+    height: $t$.signup-with-btns-btn_H;">
+        <img ds="width: ($t$.signup-with-btns-btn_W + $t$.signup-with-btns-btn_H) / 6;
+        max-height: $t$.signup-with-btns-btn@main_H;" src="https://static.vecteezy.com/system/resources/previews/018/930/698/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" alt="" srcset="">
+    </main>
+    <aside 
+    ds="width: $t$.signup-with-btns-btn_W - $t$.signup-with-btns-btn@main_W;
+    height: $t$.signup-with-btns-btn@main_H;">
+        <img ds="width: $t$.signup-with-btns-btn@aside_W / 1.1;
+        max-height: $t$.signup-with-btns-btn@aside_H;" src="https://i.postimg.cc/4d3cKKVb/image.png" alt="" srcset="">
+    </aside>
+</button>
+
+  </section>
+
+  <section onclick="continuteForm()" class="continue-email" ds="
+  bottom: (.form-content_W - (.form-content_W / 1.1)) / 3.5;
+  right: (.form-content_W - (.form-content_W / 1.1)) / 3.5;
+  width: .already-have-account_W / 1.1;
+  height: (.form-content_H - (.form-content-heading_H + (.form-content-heading--input_H * 4) + .form-content-date_H + .form-content-btn-row_H)) / 5;
+  marginL: (.form-content_W - (.form-content_W / 1.1)) !i;">
+  <button ds="height: .continue-email_H / 1.1;
+  width: .continue-email_W / 3;
+  fs: (.continue-email_H + .continue-email_W) / 40;">
+    Continue to email box
+    <i class="fa-solid fa-circle-right"></i>
+  </button>
+  </section>
+
+
+</section>
+<section class="form-image " continue="false" ds="height: .form_H; width: .form_W / 2;">
+    <main ds="width: .form-image_W; height: .form-image_H / 5;">
+        <img ds="width: $t$.form-image@main_W / 2.5; max-height: $t$.form-image@main_H;" src="https://i.postimg.cc/3wRXXvyy/blue-upscalemedia-transformed.png" alt="" srcset="">
+    </main>
+    <target-block element=".form-content" has="form-content-active">
+
+        <section ds="height: .form-image_H - $t$.form-image@main_H; width: .form-image_W;">
+            <img  ds="width: $t$.form-image@section_W / 1.5; max-height: $t$.form-image@section_H;" src="https://i.postimg.cc/tJc11tC7/image.png" alt="" srcset="">
+        </section>
+    </target-block>
+    
+    <target-block element=".form-content" has="form-content-deactivate">
+
+        <section class="form-email-sent-container " ds="width: .form-content_W;
+height: .form-content_H - ($t$.form-image@main_H);">
+    
+<section class="email-icon" ds="height: (.form-email-sent-container_H + .form-email-sent-container_W) / 13; 
+width: (.form-email-sent-container_H + .form-email-sent-container_W) / 13;">
+    <main>
+
+    </main>
+    <aside ds="height: .email-icon_H / 1.2; width: .email-icon_W / 1.2;">
+
+        <i ds="fs: (.email-icon@aside_H + .email-icon@aside_W) / 4;" class="fa-solid fa-envelope-circle-check"></i>
+    </aside>
+    
+</section>
+<section class="email-sent-text" ds="width: .form-email-sent-container_W / 1.1;
+height: (.form-email-sent-container_H - (.email-icon_H)) / 4;
+paddingT: .email-sent-text_H / 6 !i;">
+    <h1 ds="fs: (.email-sent-text_H + .email-sent-text_W) / 20;">We have sent a code to</h1>
+    <a href="https://gmail.com/" target="_blank" ds="fs: (.email-sent-text_H + .email-sent-text_W) / 25;"></a>
+    <h3 ds="fs: (.email-sent-text_H + .email-sent-text_W) / 50;"> Please check your email and enter the code below</h3>
+</section>
+
+<section id="email-code" class="email-code" ds="height: (.form-email-sent-container_H - (.email-icon_H + .email-sent-text_H)) / 3;
+width: .form-email-sent-container_W / 1.1;">
+<span ds="height: .email-code_H / 1.5; 
+width: .email-code_W / 7;">
+<strong ds="fs: (.email-code_H + .email-code_W) / 25;"></strong>
+<input connect="email-code-1" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1" 
+class="invincible-email-code-input" oninput="simulateInput(this , this.closest('span').querySelector('strong'))">
+</span>
+<span ds="height: .email-code_H / 1.5; 
+width: .email-code_W / 7;">
+<strong ds="fs: (.email-code_H + .email-code_W) / 25;"></strong>
+<input connect="email-code-2" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1" 
+class="invincible-email-code-input" oninput="simulateInput(this , this.closest('span').querySelector('strong'))">
+</span>
+<span ds="height: .email-code_H / 1.5; 
+width: .email-code_W / 7;">
+<strong ds="fs: (.email-code_H + .email-code_W) / 25;"></strong>
+<input connect="email-code-3" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1" 
+class="invincible-email-code-input" oninput="simulateInput(this , this.closest('span').querySelector('strong'))">
+</span>
+<span ds="height: .email-code_H / 1.5; 
+width: .email-code_W / 7;">
+<strong ds="fs: (.email-code_H + .email-code_W) / 25;"></strong>
+<input connect="email-code-4" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1" 
+class="invincible-email-code-input" oninput="simulateInput(this , this.closest('span').querySelector('strong'))">
+</span>
+<span ds="height: .email-code_H / 1.5; 
+width: .email-code_W / 7;">
+<strong ds="fs: (.email-code_H + .email-code_W) / 25;"></strong>
+<input connect="email-code-5" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1" 
+class="invincible-email-code-input" oninput="simulateInput(this , this.closest('span').querySelector('strong'))">
+</span>
+<span ds="height: .email-code_H / 1.5; 
+width: .email-code_W / 7;">
+<strong ds="fs: (.email-code_H + .email-code_W) / 25;"></strong>
+<input connect="email-code-6" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1" 
+class="invincible-email-code-input" oninput="simulateInput(this , this.closest('span').querySelector('strong'))">
+</span>
+<!-- <span ds="height: .email-code_H / 1.5; 
+width: .email-code_W / 7;">
+<input ds="fs: (.email-code_H + .email-code_W) / 25;" connect="email-code-input-2" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1">
+<input type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1" 
+class="invincible-email-code-input" host="email-code-input-2">
+</span>
+<span ds="height: .email-code_H / 1.5; 
+width: .email-code_W / 7;">
+<input ds="fs: (.email-code_H + .email-code_W) / 25;" connect="email-code-input-3" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1">
+<input type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1" 
+class="invincible-email-code-input" host="email-code-input-3">
+</span>
+<span ds="height: .email-code_H / 1.5; 
+width: .email-code_W / 7;">
+<input ds="fs: (.email-code_H + .email-code_W) / 25;" connect="email-code-input-4" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1">
+<input type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1" 
+class="invincible-email-code-input" host="email-code-input-4">
+</span>
+<span ds="height: .email-code_H / 1.5; 
+width: .email-code_W / 7;">
+<input ds="fs: (.email-code_H + .email-code_W) / 25;" connect="email-code-input-5" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1">
+<input type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1" 
+class="invincible-email-code-input" host="email-code-input-5">
+</span>
+<span ds="height: .email-code_H / 1.5; 
+width: .email-code_W / 7;">
+<input ds="fs: (.email-code_H + .email-code_W) / 25;" connect="email-code-input-6" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1">
+<input type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" maxlength="1" 
+class="invincible-email-code-input" host="email-code-input-6">
+</span> -->
+</section>
+<section class="email-form-row-btn" ds="width: .email-code_W;
+ height: (.form-email-sent-container_H - (.email-icon_H + .email-sent-text_H + .email-code_H)) / 2;">
+
+ <section onclick="backToForm()" class="go-back-btn" ds="width: .email-form-row-btn_W / 2; height: .email-form-row-btn_H / 1.1;">
+    <img src="https://i.postimg.cc/PryYmjzv/image.png" 
+    ds="width: .go-back-btn_W / 2;" alt="">
+     
+ </section>
+
+
+<section class="email-form-row-btn-submit-btn" ds="height: .email-form-row-btn_H / 2;
+width: .email-form-row-btn_W / 2;">
+    <h1 ds="border-width: (.email-form-row-btn-submit-btn_H + .email-form-row-btn-submit-btn_W) / 30;
+    height: (.email-form-row-btn-submit-btn_H - ((.email-form-row-btn-submit-btn_H + .email-form-row-btn-submit-btn_W) / 30)) / 2;
+    width: .email-form-row-btn-submit-btn_W - (((.email-form-row-btn-submit-btn_H - ((.email-form-row-btn-submit-btn_H + .email-form-row-btn-submit-btn_W) / 30)) / 2) * 1.6);
+    fs: (.email-form-row-btn-submit-btn_H + .email-form-row-btn-submit-btn_W) / 25;">Submit</h1>
+</section>
+
+</section>
+
+<section class="email-form-resend" 
+ds="height: (.form-email-sent-container_H - (.email-icon_H + .email-sent-text_H + .email-code_H + .email-form-row-btn-submit-btn_H)) / 2;
+width: .form-email-sent-container_W / 1.1;">
+    <h1 ds="fs: (.email-form-resend_H + .email-form-resend_W) / 50;">Didn't recived an email?</h1>
+
+    <button ds="height: .email-form-resend@h1_H * 2;
+    width: (.email-form-resend_W / 2.5) - .email-form-resend@h1_W;"> 
+    <i ds="fs: (.email-form-resend@button_H + .email-form-resend@button_W) / 10;" class="fa-solid fa-rotate"></i>
+    <span ds="fs: (.email-form-resend@button_H + .email-form-resend@button_W) / 10;"> Resend</span></button>
+</section>
+
+
+</section>
+<section class="form-creating" ds="height: .form-content_H - ($t$.form-image@main_H);
+width: .form-content_W;">
+
+<section class="form-creating-circle" ds="
+height: (.form-creating_H + .form-creating_W) / 6;
+width: (.form-creating_H + .form-creating_W) / 6;
+border-width: (.form-creating_H + .form-creating_W) / 100;">
+
+<main ds="
+width: .form-creating-circle_W;
+height: .form-creating-circle_H;">
+<span ds="height: .form-creating-circle@main_H / 10;
+width: .form-creating-circle@main_W * 2;"></span>
+</main>
+
+<aside ds="height: .form-creating-circle_H / 1.5;
+width: .form-creating-circle_W / 1.5;">
+<img ds="width: .form-creating-circle@aside_W * 2;"
+     src="https://cdn.dribbble.com/userupload/23469654/file/original-6bffe9252be14caa00e6097ca504baa2.gif" alt="" srcset="">
+</aside>
+</section>
+<section class="form-creating-text"
+ds="height: (.form-creating_H -.form-creating-circle_H) / 5;
+width: .form-creating_W / 2;
+marginT: .form-creating-text_H / 2 !i;">
+
+    <!-- <img src="https://i.pinimg.com/originals/74/43/a3/7443a31b6a19e5630b94a6538ff9bdd1.gif" alt="" srcset="">
+ -->
+
+    <h1 ds="fs: (.form-creating-text_H + .form-creating-text_W) / 20;">Creating account</h1>
+    <h2 ds="fs: (.form-creating-text_H + .form-creating-text_W) / 30;">Please be patient</h2>
+</section>
+
+</section>
+
+
+    </target-block>
+</section>
+</if-block>
+<if-block device="phone">
+    <!-- phone-form-content---form = normal form -->
+    <!-- phone-form-content---loading = loading screen -->
+    <!-- phone-form-content---email = show email sent screen -->
+    <section class="form-content phone-form-content phone-form-content---email" ds="width: .form_W; height: .form_H;">
+<section class="form-content-phone-logo" 
+ds="height: $t$.form-content_H / 7;
+width: $t$.form-content_W / 1.1;">
+    <img ds="width: .form-content-phone-logo_W / 1.5;
+    max-height: .form-content-phone-logo_H / 1.050;" src="https://i.postimg.cc/3wRXXvyy/blue-upscalemedia-transformed.png" style="filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7472%) hue-rotate(206deg) brightness(114%) contrast(100%);" alt="" srcset="">
+</section>
+<target-block   element=".phone-form-content" has="phone-form-content---form">
+    <section class="top-container phone-form-contents-show-up" id="phone-form-contents">
+
+    
+    <section class="form-content-heading"
+    
+    ds="width: $t$.form-content_W / 1.1;
+     height: ($t$.form-content_H - (.form-content-phone-logo_H)) / 13;
+     marginT: 0 !i;">
+        <h1 ds="fs: ($t$.form-content-heading_H + $t$.form-content-heading_W) / 15;">Create an account</h1>
+    </section>
+
+    <section class="form-content-input---phone" id="name"
+    ds="height: ($t$.form-content_H - ($t$.form-content@.form-content-heading_H + .form-content-phone-logo_H)) / 8;
+    width: $t$.form-content_W / 1.1;
+    ">
+
+        <main ds="
+        height: ($t$.form-content-input---phone_H) / 1.9;
+        width: $t$.form-content-input---phone_W;">
+        <section ds="
+        width: $t$.form-content-input---phone@main_W / 5;">
+
+            <span ds="height: $t$.form-content-input---phone@main_H / 2.1; 
+            width: $t$.form-content-input---phone@main@section_W;">
+            <i ds="
+                fs: ($t$.form-content-input---phone@main@span_H + $t$.form-content-input---phone@main@span_W) / 6;" 
+                class="fa-solid fa-id-card-clip"></i>
+            </span>
+            <h1 ds="height: $t$.form-content-input---phone@main_H / 2;
+            width: $t$.form-content-input---phone@main@section_W;
+            fs: ($t$.form-content-input---phone@main@h1_H + $t$.form-content-input---phone@main@h1_W) / 8;">
+        Name</h1>
+        </section>
+          <aside
+         ds="height: ($t$.form-content-input---phone@main@span_H +  $t$.form-content-input---phone@main@h1_H) / 1.2;
+         width: $t$.form-content-input---phone@main_W - ($t$.form-content-input---phone@main@section_W)">
+
+            <input connect="name-port" maxlength="255" type="text" 
+            ds="height: $t$.form-content-input---phone@aside_H - (($t$.form-content-input---phone@aside_H + $t$.form-content-input---phone@aside_W) / 150);
+            width: $t$.form-content-input---phone@aside_W / 1.020;
+            fs: ($t$.form-content-input---phone@main@h1_H + $t$.form-content-input---phone@main@h1_W) / 7;
+            border-width: ($t$.form-content-input---phone@aside_H + $t$.form-content-input---phone@aside_W) / 300;">
+        </aside>
+        </main>
+      
+        <h6 id="errorMessage" 
+        ds="height: ($t$.form-content-input---phone_H - $t$.form-content-input---phone@main_H) / 1.5;
+        marginT: ($t$.form-content-input---phone_H - ($t$.form-content-input---phone@main_H + $t$.form-content-input---phone@h6_H)) / 2 !i;">
+            <span ds="fs: ($t$.form-content-input---phone@h6_H + $t$.form-content-input---phone@h6_W) / 30;
+            width: $t$.form-content-input---phone@h6_W / 1.1;
+            max-height: $t$.form-content-input---phone@h6_H / 1.1;
+            line-height: ($t$.form-content-input---phone@h6_H + $t$.form-content-input---phone@h6_W) / 20;" id="errorMessageText">
+         error 0
+        </span>
+        </h6>
+    </section>
+
+    <section class="form-content-input---phone" id="email"
+    ds="height: ($t$.form-content_H - ($t$.form-content@.form-content-heading_H + .form-content-phone-logo_H)) / 8;
+    width: $t$.form-content_W / 1.1;
+    ">
+
+        <main ds="
+        height: ($t$.form-content-input---phone_H) / 1.9;
+        width: $t$.form-content-input---phone_W;">
+        <section ds="
+        width: $t$.form-content-input---phone@main_W / 5;">
+
+            <span ds="height: $t$.form-content-input---phone@main_H / 2.1; 
+            width: $t$.form-content-input---phone@main@section_W;">
+            <i ds="
+                fs: ($t$.form-content-input---phone@main@span_H + $t$.form-content-input---phone@main@span_W) / 6;" class="fa-solid fa-envelope"></i>
+            </span>
+            <h1 ds="height: $t$.form-content-input---phone@main_H / 2;
+            width: $t$.form-content-input---phone@main@section_W;
+            fs: ($t$.form-content-input---phone@main@h1_H + $t$.form-content-input---phone@main@h1_W) / 8;">Email</h1>
+        </section>
+          <aside
+         ds="height: ($t$.form-content-input---phone@main@span_H +  $t$.form-content-input---phone@main@h1_H) / 1.2;
+         width: $t$.form-content-input---phone@main_W - ($t$.form-content-input---phone@main@section_W)">
+
+            <input connect="email-port" maxlength="255" type="email" 
+            ds="height: $t$.form-content-input---phone@aside_H - (($t$.form-content-input---phone@aside_H + $t$.form-content-input---phone@aside_W) / 150);
+            width: $t$.form-content-input---phone@aside_W / 1.020;
+            fs: ($t$.form-content-input---phone@main@h1_H + $t$.form-content-input---phone@main@h1_W) / 7;
+            border-width: ($t$.form-content-input---phone@aside_H + $t$.form-content-input---phone@aside_W) / 300;">
+        </aside>
+        </main>
+      
+        <h6 id="errorMessage" 
+        ds="height: ($t$.form-content-input---phone_H - $t$.form-content-input---phone@main_H) / 1.5;
+        marginT: ($t$.form-content-input---phone_H - ($t$.form-content-input---phone@main_H + $t$.form-content-input---phone@h6_H)) / 2 !i;">
+            <span ds="fs: ($t$.form-content-input---phone@h6_H + $t$.form-content-input---phone@h6_W) / 30;
+            width: $t$.form-content-input---phone@h6_W / 1.1;
+            max-height: $t$.form-content-input---phone@h6_H / 1.1;
+            line-height: ($t$.form-content-input---phone@h6_H + $t$.form-content-input---phone@h6_W) / 20;" id="errorMessageText">
+         error 1
+        </span>
+        </h6>
+    </section>
+    <section class="form-content-input---phone" id="username"
+    ds="height: ($t$.form-content_H - ($t$.form-content@.form-content-heading_H + .form-content-phone-logo_H)) / 8;
+    width: $t$.form-content_W / 1.1;
+    ">
+
+        <main ds="
+        height: ($t$.form-content-input---phone_H) / 1.9;
+        width: $t$.form-content-input---phone_W;">
+        <section ds="
+        width: $t$.form-content-input---phone@main_W / 5;">
+
+            <span ds="height: $t$.form-content-input---phone@main_H / 2.1; 
+            width: $t$.form-content-input---phone@main@section_W;">
+            <i ds="
+                fs: ($t$.form-content-input---phone@main@span_H + $t$.form-content-input---phone@main@span_W) / 6;"
+                 class="fa-solid fa-signature"></i>
+            </span>
+            <h1 ds="height: $t$.form-content-input---phone@main_H / 2;
+            width: $t$.form-content-input---phone@main@section_W;
+            fs: ($t$.form-content-input---phone@main@h1_H + $t$.form-content-input---phone@main@h1_W) / 8;">Username</h1>
+        </section>
+          <aside
+         ds="height: ($t$.form-content-input---phone@main@span_H +  $t$.form-content-input---phone@main@h1_H) / 1.2;
+         width: $t$.form-content-input---phone@main_W - ($t$.form-content-input---phone@main@section_W)">
+
+            <input connect="username-port" maxlength="255" type="text" 
+            ds="height: $t$.form-content-input---phone@aside_H - (($t$.form-content-input---phone@aside_H + $t$.form-content-input---phone@aside_W) / 150);
+            width: $t$.form-content-input---phone@aside_W / 1.020;
+            fs: ($t$.form-content-input---phone@main@h1_H + $t$.form-content-input---phone@main@h1_W) / 7;
+            border-width: ($t$.form-content-input---phone@aside_H + $t$.form-content-input---phone@aside_W) / 300;">
+        </aside>
+        </main>
+      
+        <h6 id="errorMessage" 
+        ds="height: ($t$.form-content-input---phone_H - $t$.form-content-input---phone@main_H) / 1.5;
+        marginT: ($t$.form-content-input---phone_H - ($t$.form-content-input---phone@main_H + $t$.form-content-input---phone@h6_H)) / 2 !i;">
+            <span ds="fs: ($t$.form-content-input---phone@h6_H + $t$.form-content-input---phone@h6_W) / 30;
+            width: $t$.form-content-input---phone@h6_W / 1.1;
+            max-height: $t$.form-content-input---phone@h6_H / 1.1;
+            line-height: ($t$.form-content-input---phone@h6_H + $t$.form-content-input---phone@h6_W) / 20;" id="errorMessageText">
+         error 2
+        </span>
+        </h6>
+    </section>
+    <section class="form-content-input---phone" id="password"
+    ds="height: ($t$.form-content_H - ($t$.form-content@.form-content-heading_H + .form-content-phone-logo_H)) / 8;
+    width: $t$.form-content_W / 1.1;
+    ">
+
+        <main ds="
+        height: ($t$.form-content-input---phone_H) / 1.9;
+        width: $t$.form-content-input---phone_W;">
+        <section ds="
+        width: $t$.form-content-input---phone@main_W / 5;">
+            <span ds="height: $t$.form-content-input---phone@main_H / 2.1; 
+            width: $t$.form-content-input---phone@main@section_W;">
+            <i ds="
+                fs: ($t$.form-content-input---phone@main@span_H + $t$.form-content-input---phone@main@span_W) / 6;"
+                 class="fa-solid fa-key"></i>
+            </span>
+            <h1 ds="height: $t$.form-content-input---phone@main_H / 2;
+            width: $t$.form-content-input---phone@main@section_W;
+            fs: ($t$.form-content-input---phone@main@h1_H + $t$.form-content-input---phone@main@h1_W) / 8;">
+        Password</h1>
+        </section>
+          <aside
+         ds="height: ($t$.form-content-input---phone@main@span_H +  $t$.form-content-input---phone@main@h1_H) / 1.2;
+         width: $t$.form-content-input---phone@main_W - ($t$.form-content-input---phone@main@section_W)">
+
+            <input connect="password-port"  maxlength="255" type="password" 
+            ds="height: $t$.form-content-input---phone@aside_H - (($t$.form-content-input---phone@aside_H + $t$.form-content-input---phone@aside_W) / 150);
+            width: $t$.form-content-input---phone@aside_W / 1.020;
+            fs: ($t$.form-content-input---phone@main@h1_H + $t$.form-content-input---phone@main@h1_W) / 7;
+            border-width: ($t$.form-content-input---phone@aside_H + $t$.form-content-input---phone@aside_W) / 300;">
+        </aside>
+        </main>
+      
+        <h6 id="errorMessage" 
+        ds="height: ($t$.form-content-input---phone_H - $t$.form-content-input---phone@main_H) / 1.5;
+        marginT: ($t$.form-content-input---phone_H - ($t$.form-content-input---phone@main_H + $t$.form-content-input---phone@h6_H)) / 2 !i;">
+            <span ds="fs: ($t$.form-content-input---phone@h6_H + $t$.form-content-input---phone@h6_W) / 30;
+            width: $t$.form-content-input---phone@h6_W / 1.1;
+            max-height: $t$.form-content-input---phone@h6_H / 1.1;
+            line-height: ($t$.form-content-input---phone@h6_H + $t$.form-content-input---phone@h6_W) / 20;" id="errorMessageText">
+         error 3
+        </span>
+        </h6>
+    </section>
+
+    <section class="form-content-input-date---phone" id="date"
+    ds="height: (($t$.form-content_H - ((.form-content-input---phone_H * 4) + $t$.form-content@.form-content-heading_H + .form-content-phone-logo_H)) / 5) + ($t$.form-content@.form-content-input---phone@h6_H * 1.1);
+    width: $t$.form-content_W / 1.1;">
+        <aside
+        ds="height: ($t$.form-content_H - ((.form-content-input---phone_H * 4) + $t$.form-content@.form-content-heading_H + .form-content-phone-logo_H)) / 5;">
+
+            <main ds="height: .form-content-input-date---phone@aside_H / 2;
+            width: .form-content-input-date---phone_W / 1.050">
+            <i ds="fs: (.form-content-input-date---phone_H + .form-content-input-date---phone_W) / 25;" class="fa-solid fa-calendar"></i>
+            <h1 ds="fs: (.form-content-input-date---phone@aside@main_H + .form-content-input-date---phone@aside@main_W) / 25;">Date of birth</h1>
+        </main>
+        <section class="form-content-input-date---phone-values" 
+        ds="height: .form-content-input-date---phone@aside_H - (.form-content-input-date---phone@aside@main_H);
+        width: .form-content-input-date---phone@aside_W;">
+
+        <section class="form-content-input-date---phone-value" id="day-data--phone"
+        ds="height: .form-content-input-date---phone-values_H / 1.2;
+        width: .form-content-input-date---phone-values_W / 3.5;">
+<span 
+ds="fs: ($t$.form-content-input-date---phone-value_H + $t$.form-content-input-date---phone-value_W) / 10;">
+    Day
+</span>
+<span ds="
+fs: ($t$.form-content-input-date---phone-value_H + $t$.form-content-input-date---phone-value_W) / 10;" id="phone-date-value"></span>
+<input 
+oninput="simulateInputs(this , [[this.closest('section').querySelector('#phone-date-value') , 'data-day'] , ['.form-content #day-data span strong' , 'data-day' , '.form-content #day-data'] , 
+['.form-content #day-data span strong' , 'value' , '.form-content #day-data input']])" type="number">
+        </section>
+        <section class="form-content-input-date---phone-value" id="month-data--phone"
+        ds="height: .form-content-input-date---phone-values_H / 1.2;
+        width: .form-content-input-date---phone-values_W / 2.8;">
+<span 
+ds="fs: ($t$.form-content-input-date---phone-value_H + $t$.form-content-input-date---phone-value_W) / 12;">
+    Month
+</span>
+<span ds="
+fs: ($t$.form-content-input-date---phone-value_H + $t$.form-content-input-date---phone-value_W) / 15;" id="phone-date-value"></span>
+<input 
+oninput="simulateInputs(this , [[this.closest('section').querySelector('#phone-date-value') , 'data-month'] , ['.form-content #month-data span strong' , 'data-month' , '.form-content #month-data'], 
+['.form-content #month-data span strong' , 'value' , '.form-content #month-data input']])" type="text" maxlength="9">
+        </section>
+        <section class="form-content-input-date---phone-value" id="year-data--phone"
+        ds="height: .form-content-input-date---phone-values_H / 1.2;
+        width: .form-content-input-date---phone-values_W / 3.5;">
+<span 
+ds="fs: ($t$.form-content-input-date---phone-value_H + $t$.form-content-input-date---phone-value_W) / 10;">
+    Year
+</span>
+<span ds="
+fs: ($t$.form-content-input-date---phone-value_H + $t$.form-content-input-date---phone-value_W) / 10;" id="phone-date-value"></span>
+<input 
+oninput="simulateInputs(this , [[this.closest('section').querySelector('#phone-date-value') , 'data-year'] , ['.form-content #year-data span strong' , 'data-year' , '.form-content #year-data'], 
+['.form-content #year-data span strong' , 'value' , '.form-content #year-data input']])" type="number">
+        </section>
+
+        </section>
+
+    </aside>
+
+    <h6 id="errorMessage" ds="
+    height: $t$.form-content@.form-content-input---phone@h6_H;
+    width: .form-content-input-date---phone_W;
+    marginT: .form-content-input-date---phone_H - (.form-content-input-date---phone@aside_H + .form-content-input-date---phone@h6_H) !i;">
+        <span id="errorMessageText"
+        ds="width: $t$.form-content-input-date---phone@h6_W;
+        fs: ($t$.form-content-input-date---phone@h6_H + $t$.form-content-input-date---phone@h6_W) / 30;">
+    error 5
+    </span>
+    </h6>
+    </section>
+    <button onclick="phoneSignUpBtn()" class="sign-up-btn-phone" ds="
+    width: $t$.form-content_W / 1.3;
+    height: ($t$.form-content_H - (($t$.form-content@.form-content-input---phone_H * 4) + .form-content-input-date---phone_H + .form-content-phone-logo_H + $t$.form-content@.form-content-heading_H)) / 4;
+    border-width: (.sign-up-btn-phone_H + .sign-up-btn-phone_W) / 50;
+    marginT: (.sign-up-btn-phone_H + .sign-up-btn-phone_W) / 50 !i;
+    ">
+        <h1 
+ds="height: .sign-up-btn-phone_H - ((.sign-up-btn-phone_H + .sign-up-btn-phone_W) / 25);
+width: .sign-up-btn-phone_W - ((.sign-up-btn-phone_H + .sign-up-btn-phone_W) / 25);">
+
+<span class="sign-up-btn-phone-text" ds="fs: (.sign-up-btn-phone@h1_H + .sign-up-btn-phone@h1_W) / 25;">
+    Register now
+</span>
+
+
+
+</h1>
+    </button>
+
+    <section class="phone-or-section" ds="
+    width: $t$.form-content_W / 1.1;
+height: ($t$.form-content_H - (.form-content-phone-logo_H + $t$.form-content@.form-content-heading_H + (.form-content-input---phone_H * 4) + .form-content-input-date---phone_H + .sign-up-btn-phone_H)) / 5;">
+        <aside class="phone-or-section-aside"  ds="width: .phone-or-section_W / 2.5;">
+            <span ds="width: ($t$.phone-or-section-aside_W + $t$.phone-or-section-aside_H) / 40;
+            height: ($t$.phone-or-section-aside_W + $t$.phone-or-section-aside_H) / 40;"></span>
+            <span ds="width: ($t$.phone-or-section-aside_W + $t$.phone-or-section-aside_H) / 40;
+            height: ($t$.phone-or-section-aside_W + $t$.phone-or-section-aside_H) / 40;"></span>
+            <span ds="width: ($t$.phone-or-section-aside_W + $t$.phone-or-section-aside_H) / 40;
+            height: ($t$.phone-or-section-aside_W + $t$.phone-or-section-aside_H) / 40;"></span>
+        </aside>
+        <aside class="phone-or-section-aside"  ds="width: .phone-or-section_W / 2.5;">
+            <span ds="width: ($t$.phone-or-section-aside_W + $t$.phone-or-section-aside_H) / 40;
+            height: ($t$.phone-or-section-aside_W + $t$.phone-or-section-aside_H) / 40;"></span>
+            <span ds="width: ($t$.phone-or-section-aside_W + $t$.phone-or-section-aside_H) / 40;
+            height: ($t$.phone-or-section-aside_W + $t$.phone-or-section-aside_H) / 40;"></span>
+            <span ds="width: ($t$.phone-or-section-aside_W + $t$.phone-or-section-aside_H) / 40;
+            height: ($t$.phone-or-section-aside_W + $t$.phone-or-section-aside_H) / 40;"></span>
+        </aside>
+
+        <h1 ds="
+width: .phone-or-section_W - (.phone-or-section-aside_W * 2);
+fs: (.phone-or-section-aside_W + .phone-or-section-aside_H) / 15;">Or</h1>
+    </section>
+
+
+    <section class="continue-with-btns" 
+ds="width: $t$.form-content_W / 1.1;
+height: ($t$.form-content_H - (.form-content-phone-logo_H + $t$.form-content@.form-content-heading_H + (.form-content-input---phone_H * 4) + .form-content-input-date---phone_H + .sign-up-btn-phone_H + .phone-or-section_H)) / 2;">
+
+<button class="continue-with-btns-btn" onclick="continueWithGoogle()" ds="
+width: .continue-with-btns_W / 2.2;">
+    <span
+    ds="width: $t$.continue-with-btns-btn_W / 5;">
+        <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt="">
+    </span>
+    <main 
+    ds="width: ($t$.continue-with-btns-btn_W - .$t$.continue-with-btns-btn@span_W) / 1.3;
+    height: $t$.continue-with-btns-btn_H;">
+<img src="https://i.postimg.cc/4dHycp2G/image.png" alt="" srcset=""
+ds="width: $t$.continue-with-btns-btn@main_W;
+">
+    </main>
+</button>
+<button class="continue-with-btns-btn" onclick="continueWithFacebook()" ds="
+width: .continue-with-btns_W / 2.2;">
+    <span
+    ds="width: $t$.continue-with-btns-btn_W / 5;">
+        <img src="https://static.vecteezy.com/system/resources/previews/018/930/698/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" alt="">
+    </span>
+    <main 
+    ds="width: ($t$.continue-with-btns-btn_W - .$t$.continue-with-btns-btn@span_W) / 1.3;
+    height: $t$.continue-with-btns-btn_H;">
+<img src="https://i.postimg.cc/4d3cKKVb/image.png" alt="" srcset=""
+ds="width: $t$.continue-with-btns-btn@main_W;
+">
+    </main>
+</button>
+    </section>
+    <!--
+    already-account-container---phone--normal = normal
+     already-account-container---phone--continue = continue
+    normal = when no need to go email box
+     continue = when to go to email box
+      -->
+    <section class="already-account-container---phone already-account-container---phone--normal" 
+    ds="width: $t$.form-content_W / 1.1;
+    height: 
+($t$.form-content_H - (.form-content-phone-logo_H + $t$.form-content@.form-content-heading_H + (.form-content-input---phone_H * 4) + .form-content-input-date---phone_H + .sign-up-btn-phone_H + .phone-or-section_H + .continue-with-btns_H)) / 1.5;">
+
+<target-block element=".already-account-container---phone" has="already-account-container---phone--normal">
+    <a href="" class="wrapper">
+
+        <h1 ds="fs: ($t$.already-account-container---phone_H + $t$.already-account-container---phone_W) / 30;">Already have an account?</h1> 
+        <h2 ds="fs: ($t$.already-account-container---phone_H + $t$.already-account-container---phone_W) / 35;
+        paddingT: ($t$.already-account-container---phone_H + $t$.already-account-container---phone_W) / 90 !i;
+        paddingB: ($t$.already-account-container---phone_H + $t$.already-account-container---phone_W) / 90 !i;
+        paddingL: ($t$.already-account-container---phone_H + $t$.already-account-container---phone_W) / 90 !i;
+        paddingR: ($t$.already-account-container---phone_H + $t$.already-account-container---phone_W) / 90 !i;
+        marginL: ($t$.already-account-container---phone_H + $t$.already-account-container---phone_W) / 90 !i;
+        
+        ">Login</h2>
+    </a>
+</target-block>
+<target-block element=".already-account-container---phone" has="already-account-container---phone--continue">
+        <a href="" class="wrapper wrapper-continue" ds="width: .already-account-container---phone_W - (.already-account-container---phone_W / 3);
+        height: .already-account-container---phone_H;">
+
+        <h1 ds="fs:($t$.wrapper_H + $t$.wrapper_W) / 25;">Already have an account?</h1> 
+        <h2 ds="fs:($t$.wrapper_H + $t$.wrapper_W) / 25;
+        paddingT: ($t$.wrapper_H + $t$.wrapper_W) / 60 !i;
+        paddingB: ($t$.wrapper_H + $t$.wrapper_W) / 60 !i;
+        paddingL: ($t$.wrapper_H + $t$.wrapper_W) / 60 !i;
+        paddingR: ($t$.wrapper_H + $t$.wrapper_W) / 60 !i;
+        marginL:  ($t$.wrapper_H + $t$.wrapper_W) / 60 !i;
+        
+        ">Login</h2>
+    </a>
+<button class="continue-email-box---phone" onclick="startContentLoading()"
+ds="height: .already-account-container---phone_H / 1.3;
+width: .already-account-container---phone_W / 2.8;">
+    <span ds="fs: (.continue-email-box---phone_H + .continue-email-box---phone_W) / 18;">Continue to email box</span>
+    <i ds="fs: (.continue-email-box---phone_H + .continue-email-box---phone_W) / 12;" class="fa-solid fa-circle-right"></i>
+</button>
+</target-block>
+
+
+    </section>
+    </section>
+</target-block>
+
+<target-block  element=".phone-form-content" has="phone-form-content---loading">
+    <section class="top-container phone-form-loading-show-up" id="form-phone-loader">
+
+    
+<section class="form-loader--phone" 
+ds="height: $t$.form-content_H - (.form-content-phone-logo_H);
+width: $t$.form-content_W;">
+
+<section class="phone-form-loader-circle"
+ds="height: (.form-loader--phone_H + .form-loader--phone_W) / 4;
+width:  (.form-loader--phone_H + .form-loader--phone_W) / 4;">
+
+<aside 
+ds="height: .phone-form-loader-circle_H / 1.1;
+width: .phone-form-loader-circle_W / 1.1;">
+<span ds="height: .phone-form-loader-circle@aside_H / 5;
+width: .phone-form-loader-circle@aside_W * 2;">
+
+</span>
+</aside>
+
+<main ds="height: .phone-form-loader-circle_H / 1.3;
+width: .phone-form-loader-circle_W / 1.3;">
+    <img ds="width: .phone-form-loader-circle_W * 1.5;" src="https://cdn.dribbble.com/userupload/23469654/file/original-6bffe9252be14caa00e6097ca504baa2.gif" alt="" srcset="">
+</main>
+
+
+</section>
+<!-- now work on function that opens this loading
+ and then make a universial loader function -->
+<section class="form-loader--phone-text"
+ds="width: .form-loader--phone_W / 1.1;
+height: (.form-loader--phone_H - (.phone-form-loader-circle_H)) / 5;">
+
+    <h1 ds="fs: (.form-loader--phone-text_H + .form-loader--phone-text_W) / 20;">Creating account</h1>
+    <h2 ds="fs: (.form-loader--phone-text_H + .form-loader--phone-text_W) / 25;">Please be patient</h2>
+</section>
+
+
+</section>
+</section>
+</target-block>
+<target-block element=".phone-form-content" has="phone-form-content---email">
+<section class="top-container email-sent-form---phone">
+
+    <section class="phone-email-sent-form" 
+    ds="height: $t$.form-content_H - .form-content-phone-logo_H;
+    width: $t$.form-content_W;">
+    
+    <section class="phone-email-sent-form-circle"
+    ds="width: (.phone-email-sent-form_H + .phone-email-sent-form_W) / 8;
+    height: (.phone-email-sent-form_H + .phone-email-sent-form_W) / 8;
+    marginT: (.phone-email-sent-form_H + .phone-email-sent-form_W) / 20 !i;">
+        <main ds="
+height: .phone-email-sent-form-circle_H / 1.3;
+width: .phone-email-sent-form-circle_W / 1.3;">
+            <i 
+ds="fs: (.phone-email-sent-form-circle@main_H + .phone-email-sent-form-circle@main_W) / 5;" class="fa-solid fa-envelope-circle-check"></i>
+        </main>
+        <aside 
+ds="height: .phone-email-sent-form-circle_H;
+width: .phone-email-sent-form-circle_W;">
+            <span ds="height: (.phone-email-sent-form-circle@main_H + .phone-email-sent-form-circle@main_W) / 3;
+            width: .phone-email-sent-form-circle@aside_W * 2;"></span>
+        </aside>
+    </section>
+
+    <section class="phone-email-sent-form-text"
+    ds="height: (.phone-email-sent-form_H - (.phone-email-sent-form-circle_H + ((.phone-email-sent-form_H + .phone-email-sent-form_W) / 20))) / 5;
+    width: .phone-email-sent-form_W / 1.1;">
+        <h1 
+        ds="max-height: .phone-email-sent-form-text_H / 3.1;
+        width: .phone-email-sent-form-text_W;
+        fs: ((.phone-email-sent-form-text_H / 3.1) + .phone-email-sent-form-text@h1_W) / 17;">We have sent a code to</h1>
+        <a href="" 
+        ds="max-height: .phone-email-sent-form-text_H / 3.1;
+        width: .phone-email-sent-form-text_W;
+        fs: ((.phone-email-sent-form-text_H / 3.1) + .phone-email-sent-form-text@h1_W) / 17;">exampleemail@gmail.com</a>
+        <h3 
+        ds="max-height: .phone-email-sent-form-text_H / 3.1;
+        width: .phone-email-sent-form-text_W;
+        fs: ((.phone-email-sent-form-text_H / 3.1) + .phone-email-sent-form-text@h1_W) / 30;">Please check your email and enter the code below</h3>
+    </section>
+
+    
+    <section class="phone-input-code-container"
+    ds="
+    height: (.phone-email-sent-form_H - (.phone-email-sent-form-circle_H + ((.phone-email-sent-form_H + .phone-email-sent-form_W) / 20) + .phone-email-sent-form-text_H)) / 6;
+    width: .phone-form-content_W / 1.1;">
+
+    <section class="phone-input-code-container-row" 
+    ds="height: .phone-input-code-container_H; 
+    width: .phone-input-code-container_W / 1.050;">
+
+        <section class="phone-input-code-container-code"
+        ds="height: .phone-input-code-container_H;
+        width: .phone-input-code-container_W / 7;">
+        <input host="email-code-1" type="text" maxlength="1"
+        ds="fs: ($t$.phone-input-code-container-code_H + $t$.phone-input-code-container-code_W) / 5;">
+    </section>
+        <section class="phone-input-code-container-code"
+        ds="height: .phone-input-code-container_H;
+        width: .phone-input-code-container_W / 7;">
+        <input host="email-code-1" type="text" maxlength="1"
+        ds="fs: ($t$.phone-input-code-container-code_H + $t$.phone-input-code-container-code_W) / 5;">
+    </section>
+        <section class="phone-input-code-container-code"
+        ds="height: .phone-input-code-container_H;
+        width: .phone-input-code-container_W / 7;">
+        <input host="email-code-1" type="text" maxlength="1"
+        ds="fs: ($t$.phone-input-code-container-code_H + $t$.phone-input-code-container-code_W) / 5;">
+    </section>
+        <section class="phone-input-code-container-code"
+        ds="height: .phone-input-code-container_H;
+        width: .phone-input-code-container_W / 7;">
+        <input host="email-code-1" type="text" maxlength="1"
+        ds="fs: ($t$.phone-input-code-container-code_H + $t$.phone-input-code-container-code_W) / 5;">
+    </section>
+        <section class="phone-input-code-container-code"
+        ds="height: .phone-input-code-container_H;
+        width: .phone-input-code-container_W / 7;">
+        <input host="email-code-1" type="text" maxlength="1"
+        ds="fs: ($t$.phone-input-code-container-code_H + $t$.phone-input-code-container-code_W) / 5;">
+    </section>
+        <section class="phone-input-code-container-code"
+        ds="height: .phone-input-code-container_H;
+        width: .phone-input-code-container_W / 7;">
+        <input host="email-code-1" type="text" maxlength="1"
+        ds="fs: ($t$.phone-input-code-container-code_H + $t$.phone-input-code-container-code_W) / 5;">
+    </section>
+      
+</section>
+    
+    
+
+    </section>
+
+   
+     <section class="phone-email-form-submit-btn"
+     ds="height: (.phone-email-sent-form_H - (.phone-email-sent-form-circle_H + ((.phone-email-sent-form_H + .phone-email-sent-form_W) / 20) + .phone-email-sent-form-text_H + .phone-input-code-container_H)) / 3;
+     width: .phone-email-sent-form_W / 1.1;">
+    <button ds="
+    height: .phone-email-form-submit-btn_H / 2;
+    width: .phone-email-form-submit-btn_W / 1.030;
+    border-width: (.phone-email-form-submit-btn@button_H + .phone-email-form-submit-btn@button_W) / 100;">
+    <span style="margin-right: 1ch !important;">Submit code</span>
+    <i class="fa-solid fa-caret-right"></i>
+
+    </button>
+     </section>
+    
+    
+
+<section class="phone-resend-code"
+ds="width: .phone-email-sent-form_W / 1.1;
+height: (.phone-email-sent-form_H - (.phone-email-sent-form-circle_H + ((.phone-email-sent-form_H + .phone-email-sent-form_W) / 20) + .phone-email-sent-form-text_H + .phone-input-code-container_H + .phone-email-form-submit-btn_H)) / 4;">
+    <main ds="
+    width: .phone-resend-code_W;
+    height: .phone-resend-code_H;">
+     
+        <h1
+        ds="fs: (.phone-resend-code@main_H + .phone-resend-code@main_W) / 30;">Didn't recived an email?</h1>
+         <button ds="
+         height: .phone-resend-code@main_H / 1.5;
+         width: .phone-resend-code@main_W / 3;
+         fs: (.phone-resend-code@main@button_H + .phone-resend-code@main@button_W) / 12;
+         marginL: (.phone-resend-code@main@button_H + .phone-resend-code@main@button_W) / 12 !i; ">
+        Resend code
+        </button>
+    </main>
+</section>
+ <section class="phone-go-back" ds="
+     width: .phone-email-sent-form_W / 1.1;
+     height: (.phone-email-sent-form_H - (.phone-email-sent-form-circle_H + ((.phone-email-sent-form_H + .phone-email-sent-form_W) / 20) + .phone-email-sent-form-text_H + .phone-input-code-container_H + .phone-email-form-submit-btn_H)) / 1.3">
+        <img onclick="phoneGoBack()" ds="width: .phone-go-back_W / 3;
+        max-height: .phone-go-back_H;" src="https://i.postimg.cc/Px3yx7r6/Untitleasad.png" alt="" srcset="">
+     </section>
+</section>
+</section>
+
+</target-block>
+
+
+    
+
+
+   
+
+</section>
+</if-block>
+</section>
+ <section class="background-image"
+    ds="height: .page_H; width: .page_W;">
+    <!-- likes this one -->
+        <!-- <img ds="width: .form_W / 2;" src="https://cdn.dribbble.com/userupload/24033968/file/original-6d63db7bab464b7c4ca22221810aef58.gif" alt="" srcset=""> -->
+        <!-- <img ds="width: .page_W;" src="https://wallpapercave.com/wp/wp12535914.png" alt="" srcset=""> -->
+        <!-- <img ds="width: .page_W;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNdQjVtZevpNfFnNjTGe3462EhWYQMk7mvg&s" alt="" srcset=""> -->
+        <!-- <img ds="width: .form_W / 2;
+        left: (.page_W - .form_W) / 2; 
+        bottom: (.page_H - .form_H) / 2;" src="https://media.istockphoto.com/id/1433485090/video/dots-makes-global-world-map-global-wireframe-polygonal-lines.jpg?s=640x640&k=20&c=6TpfX8QHt9IPnF0s5HkwOaNoqcNbtYP99Ceh7-iR8MI=" alt="" srcset=""> -->
+        <!-- <img ds="width: .form_W / 2;
+        left: (.page_W - .form_W) / 2; 
+        bottom: (.page_H - .form_H) / 2;" src="https://img.freepik.com/free-vector/worldwide-connection-blue-background-illustration-vector_53876-61770.jpg" alt="" srcset=""> -->
+    </section>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/Unify_SignUp.js"></script>
+</body>
+</html>
+
+
+<!-- 
+<reminder date="26-07-2025">
+email sent phone version ka continue banana kanra hai submit button sa
+fir back button fir resend button, functions banaa rhe ga back jane ke liye
+fir isko sync karna rhe ga
+fir ek univeral function ka jo loading ko stop kar ke form pe wapis jaye ga,
+and then phoneContinue() function banana hai form ko continuye karne ka
+and error message show ho ga(maybe use current one showerror), 
+
+and jab createAccounLoading() ho toh woo 6 inputs box ko empty kar de(in pc and in phone too)
+
+and read below(not in sequence of this message, but for better context of function name in this
+chaos)
+
+
+phoneShowEmailContent() = show phone version's email page
+showEmailFormContent() = show pc version's email page
+phoneFormLoader() = show loading of phone version
+createAccountLoading() = sign up btn of of pc port.
+works in phone version from
+validating to showing loading and showing email content
+
+phoneSignUpBtn() = calls createAccountLoading() and it works in phone version from
+validating to showing loading and showing email content
+
+backToForm() = gets back the pc version to form page
+phoneFormGoBackFormFromLoading() = gets back the phone version of loading/email to form 
+
+
+
+
+------- context
+In the end you will have to bundle phone and pc functions into one universal function that you will call on ajax
+and may need to change place of where ajax you have wrote till now.
+and see the continue btn comment and make a function for universal stuff(do once it is confirm wha to do)
+-------
+fav gifs:
+https://i.pinimg.com/originals/74/43/a3/7443a31b6a19e5630b94a6538ff9bdd1.gif
